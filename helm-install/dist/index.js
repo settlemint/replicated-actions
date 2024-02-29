@@ -72,6 +72,7 @@ function installChart(helmPath, kubeconfig, chart, version, releaseName, namespa
                 "upgrade",
                 releaseName,
                 "--install",
+                "--atomic",
                 "--kubeconfig",
                 kubeconfigPath,
                 "--namespace",
