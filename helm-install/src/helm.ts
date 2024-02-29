@@ -75,6 +75,7 @@ export async function installChart(
       "upgrade",
       releaseName,
       "--install",
+      "--atomic",
       "--kubeconfig",
       kubeconfigPath,
       "--namespace",
