@@ -76,6 +76,8 @@ export async function installChart(
       releaseName,
       "--install",
       "--atomic",
+      "--timeout",
+      "15m",
       "--kubeconfig",
       kubeconfigPath,
       "--namespace",
